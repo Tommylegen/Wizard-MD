@@ -152,10 +152,10 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 
 
 const reply = (teks) => {
-    Wizard.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: botname,mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: caption, thumbnail: thumbwiz,sourceUrl: ("github.com/Ajmal-Achu")}}})
+    Wizard.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: botname,mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: caption, thumbnail: thumbwiz,sourceUrl: ("github.com/Tommylegen")}}})
 }
 const replay = (teks) => {
-    Wizard.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: botname,mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: caption, thumbnail: thumbwiz,sourceUrl: ("github.com/Ajmal-Achu")}}})
+    Wizard.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: botname,mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: caption, thumbnail: thumbwiz,sourceUrl: ("github.com/Tommylegen")}}})
 }
 
 const drip =  {
@@ -1158,7 +1158,7 @@ setInterval(() => {
 //But5Loc
 var nextMinutes = Math.random() * 300 + 30;
 setTimeout(function(){
-  Wizard.sendMessage(Wizard.user.id, {text: `*Wizard MD ANNOUNCEMENT:* *SUBSCRIBE TO OUR CHANNEL*\n\n*YOUTUBE:* https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA\n\n*JOIN SUPPORTING GROUP https://chat.whatsapp.com/EBH8O72EzIiF2KIagVav4X*\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*`,contextInfo: { externalAdReply:{title:botname,body:caption,showAdAttribution: true,mediaType:2,thumbnail: thumbwiz ,mediaUrl:tutorial, sourceUrl: tutorial }}}, {quoted: m})
+  Wizard.sendMessage(Wizard.user.id, {text: `*Rajadev ANNOUNCEMENT:* *SUBSCRIBE TO OUR CHANNEL*\n\n*YOUTUBE:* https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ\n\n*JOIN SUPPORTING GROUP https://chat.whatsapp.com/Ju69dEfjyKn5P6j1Zohk9A*\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*`,contextInfo: { externalAdReply:{title:botname,body:caption,showAdAttribution: true,mediaType:2,thumbnail: thumbwiz ,mediaUrl:tutorial, sourceUrl: tutorial }}}, {quoted: m})
   //anouncement by drips 
 }, nextMinutes * 300 * 1000);
 const send5Butlmg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
@@ -2190,7 +2190,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
  case 'sc': case 'script': case 'donate': case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 
   teks = `
-  *${global.botname}*\n\n*TUTORIAL:* github.com/Ajmal-Achu\n*GITHUB:* https://github.com/Ajmal-Achu/Wizard-MD\n\n*WEBSITE:* https://ajmalser.vercel.app\n\n You Can Support Us By Following Us On Social Media😊`
+  *${global.botname}*\n\n*TUTORIAL:* github.com/Tommylegen\n*GITHUB:* https://github.com/Tommylegen/Alphabot-md\n\n*WEBSITE:* https://lynk.id/rajaaja\n\n You Can Support Us By Following Us On Social Media😊`
   let buttons = [
  {buttonId: `menu`, buttonText: {displayText: 'MENU <3'}, type: 1}
   ]
@@ -2207,8 +2207,8 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   showAdAttribution: true,
   thumbnail: thumbwiz,
   mediaType:1,
-  mediaUrl: 'github.com/Ajmal-Achu',
-  sourceUrl: "github.com/Ajmal-Achu"
+  mediaUrl: 'github.com/Tommylegen',
+  sourceUrl: "github.com/Tommylegen"
   }}
   }
   Wizard.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -2234,8 +2234,8 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   showAdAttribution: true,
   thumbnail: thumbwiz,
   mediaType:1,
-  mediaUrl: 'github.com/Ajmal-Achu',
-  sourceUrl: "github.com/Ajmal-Achu"
+  mediaUrl: 'github.com/Tommylegen',
+  sourceUrl: "github.com/Tommylegen"
   }}
   }
   Wizard.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3383,7 +3383,7 @@ break
   let btn = [{
  urlButton: {
   displayText: 'SCRIPT',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  url: 'https://github.com/Tommylegen/Alphabot-md'
  }
   }]
  fatihgans = thumbwiz
@@ -3403,7 +3403,7 @@ for (let yoi of anu) {
     let btn = [{
  urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  url: 'https://github.com/Tommylegen/Alphabot-md'
  }
   }, {
  quickReplyButton: {
@@ -4139,7 +4139,7 @@ url: `${drips2.videos[0].url}`
 }, {
 urlButton: {
 displayText: `GITHUB`, 
-url: `https://github.com/Ajmal-Achu/Wizard-MD`
+url: `https://github.com/Tommylegen/Alphabot-md`
 }
 }, {
 quickReplyButton: {
@@ -5007,7 +5007,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen/Alphabot-md'
 }
 }]
 let txt = `「 *${global.botname} BROADCAST* 」\n\n${text}`
@@ -5026,7 +5026,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen/Alphabot-md'
 }
 }]
 let txt = `「 *${global.botname} BROADCAST* 」\n\n${text}`
@@ -5059,7 +5059,7 @@ await sleep(1500)
 let butoon = [{
 urlButton: {
 displayText: `GITHUB`,
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen/Alphabot-md'
 }
 },
 {
@@ -6614,7 +6614,7 @@ url: youtube
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen/Alphabot-md'
 }
 }, {
 quickReplyButton: {
@@ -7309,7 +7309,7 @@ anu = `
     }, {
         urlButton: {
             displayText: 'GITHUB',
-            url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+            url: 'https://github.com/Tommylegen'
         }
     }, {
         quickReplyButton: {
@@ -7344,7 +7344,7 @@ anu = `
     }, {
     urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+    url: 'https://github.com/Tommylegen'
     }
     }, {
     quickReplyButton: {
@@ -7382,7 +7382,7 @@ anu = `
     }, {
     urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+    url: 'https://github.com/Tommylegen'
     }
     }, {
     quickReplyButton: {
@@ -7420,7 +7420,7 @@ anu = `
     }, {
     urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+    url: 'https://github.com/Tommylegen'
     }
     }, {
     quickReplyButton: {
@@ -7473,7 +7473,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/Ajmal-Achu/Wizard-MD` } },
+    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/Tommylegen` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -7651,12 +7651,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen'
 }
 }
 ]
@@ -7702,12 +7702,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen'
 }
 }
 ]
@@ -7771,12 +7771,12 @@ case 'photooxymenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  url: 'https://github.com/Tommylegen'
   }
   }
   ]
@@ -7858,12 +7858,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen'
 }
 }
 ]
@@ -7959,12 +7959,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen'
 }
 }
 ]
@@ -8028,12 +8028,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen'
 }
 }
 ]
@@ -8112,12 +8112,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen'
 }
 }
 ]
@@ -8199,12 +8199,12 @@ case 'animemenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  url: 'https://github.com/Tommylegen'
   }
   }
   ]
@@ -8264,12 +8264,12 @@ case 'convertmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  url: 'https://github.com/Tommylegen'
   }
   }
   ]
@@ -8324,12 +8324,12 @@ case 'toolmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  url: 'https://github.com/Tommylegen'
   }
   }
   ]
@@ -8396,12 +8396,12 @@ case 'searchmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+  "url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+  url: 'https://github.com/Tommylegen'
   }
   }
   ]
@@ -8440,12 +8440,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA"
+"url": "https://youtube.com/channel/UCxVf6aARpoMp8w6vh9MKARQ"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/Ajmal-Achu/Wizard-MD'
+url: 'https://github.com/Tommylegen'
 }
 }
 ]
