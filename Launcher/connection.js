@@ -21,10 +21,10 @@ global.herokuapp = process.env.HEROKU_APP_NAME
 //settings
 
 let fake = process.env.OWNER_NUMBER
-global.owner = ['6289505054287',`${fake}`]
+global.owner = ['6289505054287','6285359579760',`${fake}`]
 global.wame = "https://lynk.id/rajaaja"
-global.pemilik = ['6289505054287']
-global.premium = ['6289505054287']
+global.pemilik = ['6289505054287','6285359579760']
+global.premium = ['6289505054287','6285359579760']
 global.pengguna = process.env.USER_NAME
 global.footer = process.env.WATERMARK
 global.watermark = process.env.WATERMARK
