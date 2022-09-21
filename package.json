@@ -5,7 +5,7 @@
   "main": "starter.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node starter.js",
+    "start": "node . --db 'mongodb+srv://wabot:yV0Tj2dplW5FzOYc@cluster0.rxaxkyc.mongodb.net/?retryWrites=true&w=majority'",
     "cli": "node  --optimize_for_size --max_old_space_size=460 starter.js"
   },
   "keywords": [
